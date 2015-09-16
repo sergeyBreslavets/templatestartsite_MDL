@@ -45,6 +45,7 @@ var sourcesjs  = [
 ];
 var htmlSrc        = './src/html/*.html';
 var srcjade        ='./src/jade/*.jade';
+var srcsass        ='./src/sass/styles.scss';
 
 //src target
 var csstarget      = './www/assets/styles/';
@@ -110,7 +111,7 @@ gulp.task('styles', function() {
 
 //sass task
 gulp.task('sass', function() {
-    gulp.src('./src/sass/styles.sass')
+    gulp.src(srcsass)
         /*.pipe(sourcemaps.init())*/
         .pipe(sass({
             errLogToConsole: true
