@@ -12,4 +12,8 @@ template start site  + Material Design Lite
 * внимание
 ```
  нет иконок 
+ установка иконок
+ sudo bower install material-design-icons
+ подключение 
+ gulp copyfont
 ```
