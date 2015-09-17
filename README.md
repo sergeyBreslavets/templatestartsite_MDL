@@ -9,3 +9,7 @@ template start site  + Material Design Lite
  bower update
  sudo npm update
 ```
+* внимание
+```
+ нет иконок 
+```
